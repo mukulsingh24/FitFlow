@@ -98,7 +98,11 @@ export default function Login() {
                     />
                 </TouchableOpacity>
                  <TouchableOpacity className="bg-white border border-gray-200 p-4 rounded-xl items-center active:bg-gray-50 shadow-sm w-20 h-20 justify-center">
-                   <FontAwesome name="github" size={32} color="black" />
+                   <Image 
+                      source={require('../../assets/fit.png')}
+                      className="w-10 h-10"
+                      resizeMode="contain"
+                    />
                 </TouchableOpacity>
               </View>
 

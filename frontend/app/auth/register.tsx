@@ -125,8 +125,8 @@ export default function Register() {
                 </TouchableOpacity>
                 <TouchableOpacity className="bg-white border border-gray-200 p-4 rounded-xl items-center active:bg-gray-50 shadow-sm w-20 h-20 justify-center">
                     <Image 
-                      source={{ uri: 'https://cdn-icons-png.flaticon.com/512/25/25231.png' }} 
-                      className="w-8 h-8"
+                      source={require('../../assets/fit.png')}
+                      className="w-10 h-10"
                       resizeMode="contain"
                     />
                 </TouchableOpacity>
